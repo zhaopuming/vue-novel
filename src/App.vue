@@ -21,19 +21,19 @@
                 router
                 @select="onMenuSelect"
               >
-                <el-menu-item index="home">
+                <el-menu-item index="/home">
                   <faicon icon="home" size="lg"/>
                   <span>首页</span>
                 </el-menu-item>
-                <el-menu-item index="bookshelf">
-                  <faicon icon="book" size="lg"/>
+                <el-menu-item index="/bookshelf">
+                  <faicon icon="star" size="lg"/>
                   <span>书架</span>
                 </el-menu-item>
-                <el-menu-item index="categories">
+                <el-menu-item index="/categories">
                   <faicon icon="th-large" size="lg"/>
                   <span>分类</span>
                 </el-menu-item>
-                <el-menu-item index="rankings">
+                <el-menu-item index="/rankings">
                   <faicon icon="sort-amount-down" size="lg"/>
                   <span>排行</span>
                 </el-menu-item>

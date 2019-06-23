@@ -74,13 +74,14 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 
 .el-header
     border-bottom 1px solid #eeeeee
 .hotlist-container
+  height: 400px
   margin-top 10px
-  border 1px solid #eeeeee
+  border 1px solid #cab389
   border-radius 10px
   padding 10px
 
@@ -88,5 +89,12 @@ export default {
     text-align left
     left 5px
     font-weight bold
+
+div.book-info:hover
+  border 1px solid #cab389
+  border-radius 5px
+  background-color #fef1dc
+
+
 </style>
 
