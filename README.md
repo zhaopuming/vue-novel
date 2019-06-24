@@ -22,8 +22,30 @@
 
 ### 项目依赖
 
-- stylus, stylus-loader: 用stylus语法写css
-- element-ui: 饿了么出品的ui库 vue-novel
+vue相关核心库
+
+- vue-router
+- vuex
+
+CSS使用stylus编写
+
+- stylus
+- stylus-loader
+
+控件库使用element-ui
+
+- element-ui
+
+图标使用fontawesome
+
+- @fortawesome/fontawesome-svg-core
+- @fortawesome/free-solid-svg-icons
+- @fortawesome/free-regular-svg-icons
+
+HTTP客户端
+
+- axios
+
 
 ## Project setup
 

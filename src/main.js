@@ -10,6 +10,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 // Fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faHome, faBook, faSortAmountDown, faThLarge, faSearch, faList, faArrowLeft, faArrowRight, faBookOpen, faStar, faCog } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { faBookmark } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -23,7 +24,10 @@ Vue.config.productionTip = false
 
 Vue.use(ElementUI)
 
-library.add(faHome, faBook, faThLarge, faSortAmountDown, faSearch, faBookmark, faList, faArrowLeft, faArrowRight, faBookOpen, faStar, faCog)
+library.add(faHome, faBook, faThLarge, faSortAmountDown)
+library.add(faSearch, faBookmark, faList, faArrowLeft)
+library.add(faArrowRight, faBookOpen, faStar, faCog)
+library.add(faCheck)
 Vue.component('faicon', FontAwesomeIcon)
 
 new Vue({
