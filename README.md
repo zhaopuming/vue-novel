@@ -4,8 +4,9 @@
 
 注：这个工程只是vue.js的技术验证，现在已经不再维护。
 
-我新作了一个基于vue.js的开源项目：[衍星书院](https://yanxingshuyuan.com/), 这是一个功能完善的阅读学习平台，未来会长期维护。
-代码放在码云：<https://gitee.com/yanxingshuyuan/website>，欢迎关注。
+我新作了一个基于vue.js的开源项目：[衍星书院](https://yanxingshuyuan.com/), 这是一个**功能完善的阅读学习平台，未来会长期维护**。
+
+衍星书院的代码放在码云：<https://gitee.com/yanxingshuyuan/website>，欢迎关注。
 
 ### 网站截图
 
